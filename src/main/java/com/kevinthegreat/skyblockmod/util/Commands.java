@@ -34,8 +34,7 @@ public class Commands {
         }));
         dispatcher.register(literal("limbout").executes(context -> {
             SkyblockMod.skyblockMod.message.queueMessage("/lobby skyblock", 0);
-            SkyblockMod.skyblockMod.message.sendMessageAfterCooldown("/skyblock");
-            SkyblockMod.skyblockMod.message.addMessage(Text.of("Leaving limbo and joining skyblock back..."));
+            SkyblockMod.skyblockMod.message.queueMessage("/skyblock", 0);
             return 1;
         }));
         dispatcher.register(literal("sbm")
