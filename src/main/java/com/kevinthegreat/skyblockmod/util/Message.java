@@ -16,8 +16,11 @@ public class Message {
     private long lastMessage;
 
     public Message() {
+        commands.put("/lo", "/limbout");
+        commands.put("/ls", "/lobby skyblock");
         commands.put("/s", "/skyblock");
         commands.put("/sk", "/skyblock");
+        commands.put("/sb", "/skyblock");
         commands.put("/sky", "/skyblock");
         commands.put("/i", "/is");
         commands.put("/h", "/hub");
