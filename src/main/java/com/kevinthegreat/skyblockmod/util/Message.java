@@ -117,6 +117,8 @@ public class Message {
         commandsArgs.put("/v", "/visit");
         commands.put("/vp", "/visit prtl");
         commands.put("/visit p", "/visit prtl");
+        
+        commands.put("/eq", "/equipment");
     }
 
     public void addMessage(Text message) {
