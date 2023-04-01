@@ -47,7 +47,8 @@ public class Message {
         commands.put("/mi", "/warp mines");
         commands.put("/mines", "/warp mines");
 
-        commands.put("/f", "/warp forge");
+        //TODO: bruh tell /f is already /friend
+        //commands.put("/f", "/warp forge");
         commands.put("/for", "/warp forge");
         commands.put("/forge", "/warp forge");
 
@@ -58,7 +59,11 @@ public class Message {
         commands.put("/ch", "/warp crystals");
         commands.put("/crystal hollows", "/warp crystals");
 
-        commands.put("/g", "/warp gold");
+        commands.put("/g", "/warp garden");
+        commands.put("/ga", "/warp garden");
+        commands.put("/garden", "/warp garden");
+
+        commands.put("/go", "/warp gold");
         commands.put("/gold", "/warp gold");
 
         commands.put("/des", "/warp desert");
@@ -107,8 +112,8 @@ public class Message {
         commands.put("/pr", "/reparty");
 
         commandsArgs.put("/v", "/visit");
-        commands.put("/vp", "/visit portalhub");
-        commands.put("/visit p", "/visit portalhub");
+        commands.put("/vp", "/visit prtl");
+        commands.put("/visit p", "/visit prtl");
     }
 
     public void addMessage(Text message) {
