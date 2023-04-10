@@ -78,6 +78,7 @@ public class Message {
         commands.put("/spider", "/warp spider");
         commands.put("/spiders", "/warp spider");
 
+        commands.put("/b", "/warp barn");
         commands.put("/ba", "/warp barn");
         commands.put("/barn", "/warp barn");
 
