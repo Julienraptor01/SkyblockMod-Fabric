@@ -90,6 +90,9 @@ public class Message {
 
         commands.put("/park", "/warp park");
 
+        commands.put("/wiz", "/warp wizard");
+        commands.put("/wizard", "/warp wizard");
+
         commands.put("/castle", "/warp castle");
         commands.put("/museum", "/warp museum");
         commands.put("/da", "/warp da");
